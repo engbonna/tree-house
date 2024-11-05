@@ -152,12 +152,11 @@ button:active{
 }
 /* forth-section */
 .Latest-project{
-  height: 500px;
-  margin-bottom: 20px;
+  height: 600px;
 }
-.Lstest{
+.head{
   text-align: center;
-  padding-bottom: 70PX;
+  padding-bottom: 70px 0;
 }
 .DEVELOPING{
  padding-left: 100px;
@@ -187,12 +186,33 @@ button:active{
   align-items: center;
   gap: 10px;
 }
-.treehouse{
+.Latest-project button{
+  position: relative;
+  padding: 8px 10px;
+  background-color:rgba(0, 255, 149, 0.89) ;
+ border: 2px solid rgb(207, 206, 206);
+  border-radius: 20px;
+}
+.treehouse-img{
   width: 50%;
   height: 384px;
-  background-color: blueviolet;
   background-image:url('../images/tree-house.jpg') ;
   background-size: cover;
   background-repeat: no-repeat;
-
+}
+/* fifth-section */
+.culture{
+  height: 400px;
+  background-color: rgb(243, 243, 243);
+}
+.head{
+  text-align: center;
+  padding: 70px 0;
+}
+.culture-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   gap: 40px;
 }
