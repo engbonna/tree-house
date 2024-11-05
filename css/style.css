@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    width: 70%;
+    margin: 0 auto;
+}
+/* first-ssection */
+.nav-menu{
+  margin: 40px 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.nav-menu h1 a{
+  color: black;
+}
+ul{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.creative-img{
+  position: relative;
+  height:400px;
+  background-image:url('../images/main-bg.jpeg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.creative-img::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background-color:rgba(0, 0, 0, 0.7) ;
+ 
+}
+
+.creative-info{
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.creative-info button{
+  background-color: rgba(0, 255, 149, 0.89);
+  padding: 8px 10px;
+  border: 1px solid gray;
+  border-radius: 20px;
+
+}
+/* second-section */
+.second-section{
+  height: 400px;
+}
+
+.head{ 
+  text-align: center;
+  padding: 70px 0;
+}
+.services-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   gap: 40px;
+}
+.fa-regular{
+  font-size: 30px;
+}
+.fa-brands{
+
+  font-size: 30px;
+}
+.fa-solid{
+  font-size: 30px;
+}
+
+/* third-section */
+.third-section{
+ height: 400px;
+ display: flex;
+ align-items: center;
+ margin-bottom: 50px;
+}
+.img-1{
+  width: 40%;
+  height: 400px;
+  background-image: url('../images/setting.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 400px;
+}
+.just-Relax{
+  width: 60%;
+  background-color: red;
+  position: relative;
+  height:400px;
+  background-image:url('../images/main-bg.jpeg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.just-Relax::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background-color:rgba(0, 0, 0, 0.7) ;
+ 
+}
+.just h2 {
+  position: relative;
+  color: white;
+}
+.just span{
+  color:rgba(0, 255, 149, 0.89) ;
+
+}
+.just p{
+  position: relative;
+  color: rgb(167, 164, 164);
+}
+
+.just button{
+  position: relative;
+  padding: 8px 10px;
+  background-color:rgba(0, 255, 149, 0.89) ;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+button:active{
+  transform: scale(0.96);
+}
+/* forth-section */
+.Latest-project{
+  height: 500px;
+  margin-bottom: 20px;
+}
+.Lstest{
+  text-align: center;
+  padding-bottom: 70PX;
+}
+.DEVELOPING{
+ padding-left: 100px;
+  width: 50%;
+}
+.E-Commerce{
+  display: flex;
+  align-items: center;
+
+}
+.SEO{
+  display: flex;
+  align-items: center;
+}
+.Secure{
+   display: flex;
+  align-items: center;
+}
+.logo-part p{
+  padding-left: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.manu-wapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.treehouse{
+  width: 50%;
+  height: 384px;
+  background-color: blueviolet;
+  background-image:url('../images/tree-house.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
