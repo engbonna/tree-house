@@ -209,10 +209,179 @@ button:active{
   text-align: center;
   padding: 70px 0;
 }
+hr{
+  width: 200px;
+  margin-left: 80%;
+
+}
 .culture-menu{
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
    gap: 40px;
+}
+/* six-section */
+.Clients-section{
+  height: 800px;
+}
+
+.Clients-details{
+  width: 50%;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+ .Clients-1{
+  height: 132.967px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+
+}
+.Clients-img-1{
+  width: 30%;
+  height: 160.033px;
+  border-radius: 100%;
+  background-image: url('../images/Clients-1.jpg');
+  background-size: cover;
+  border: 1px solid rgb(194, 192, 192);
+
+}
+.Clients-info-1{
+  width: 70%;
+  height: 110px;
+  background-color: rgb(243, 243, 243);
+ margin-left: 20px;
+ text-align: center;
+ padding: 17px 8px;
+}
+.Clients-info-1 a{
+  color: green;
+}
+.Clients-2{
+  height: 132.967px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+} 
+.Clients-info-2{
+  width: 70%;
+  height: 110px;
+  background-color:  rgb(243, 243, 243);
+  margin-right: 20px;
+  text-align: center;
+  padding: 17px 8px;
+
+}
+.Clients-info-2 a{
+  color: green;
+}
+.Clients-img-2{
+  width: 30%;
+  height: 160.033px;
+  border-radius: 100%;
+  background-image: url(../images/clients-2.jpg);
+  background-size: cover;
+  border: 1px solid rgb(194, 192, 192);
+}
+.green-div{
+height: 160px;
+background-color: rgb(89, 180, 89);
+}
+.Ready-head{
+  text-align: center;
+  padding: 40px 0;
+  color: white;
+}
+.green-div button{
+  position: relative;
+  padding: 8px 10px;
+  background-color: rgb(89, 180, 89) ;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+button:active{
+  transform: scale(0.96);
+}
+.logo{
+
+}
+/* seven-section */
+.contact-method{
+  height: 400px;
+  background-color:black;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+}
+.CONTACT-US{
+  width: 250px;
+  height: 208px;
+}
+.CONTACT-US p{
+  color:rgb(207, 206, 206);
+}
+.location{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.location i{
+  font-size: 25px;
+}
+.phone{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.phone i{
+  font-size: 20px;
+}
+.email{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.email i{
+  font-size: 20px;
+}
+.LATEST-POSTS{
+  width: 250px;
+}
+.LATEST-POSTS p{
+  color:rgb(207, 206, 206);
+}
+.LATEST-info{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.LATEST-info i{
+  font-size: 20px;
+}
+.LATEST-TWEETS{
+width: 250px;
+height: 208px;
+}
+.LATEST-TWEETS p{
+  color:rgb(207, 206, 206);
+}
+.twiter{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.footer-icons{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
 }
